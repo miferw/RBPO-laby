@@ -15,8 +15,7 @@ unsigned short ReadPersonAge() {
 string ReadPersonName() {
     string name;
     cout << "Enter name: ";
-    cin.ignore();
-    getline(cin, name);
+    cin >> name;
     return name;
 }
 
@@ -48,7 +47,7 @@ void ReadPersonData(string& name, unsigned short& age, double& salary) {
 }
 
 
-void ReadPersonData(string& name, unsigned short& age, unsigned short& height, unsigned short& weight, double& salary) {//Имя, возраст, рост, вес и зарплата
+void ReadPersonData(string& name, unsigned short& age, unsigned short& height, unsigned short& weight, double& salary) {//Г€Г¬Гї, ГўГ®Г§Г°Г Г±ГІ, Г°Г®Г±ГІ, ГўГҐГ± ГЁ Г§Г Г°ГЇГ«Г ГІГ 
     name = ReadPersonName();
     age = ReadPersonAge();
     ReadPersonHeight(height);
