@@ -2,11 +2,10 @@
 #include <iostream>
 #include <string>
 using namespace std;
-std::string name; //явное указание на часть пространства имен
+std::string name; //ГїГўГ­Г®ГҐ ГіГЄГ Г§Г Г­ГЁГҐ Г­Г  Г·Г Г±ГІГј ГЇГ°Г®Г±ГІГ°Г Г­Г±ГІГўГ  ГЁГ¬ГҐГ­
 string ReadPersonName() {
    
     cout << "Enter name: ";
-    cin.ignore();
-    getline(cin, name);
+    cin >> name;
     return name;
 }
