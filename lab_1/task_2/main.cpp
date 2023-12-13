@@ -4,14 +4,15 @@
 #include "ReadPersonHeight.h"
 #include "ReadPersonWeight.h"
 #include "ReadPersonSalary.h"
-#include "ReadPersonData.h"
+#include "ReadPersonData1.h"
+#include "ReadPersonData2.h"
 #include "WritePersonData.h"
 #include <iostream>
 #include <string>
 using namespace std;
 int main() {
     unsigned short age;
-    //extern - внешние переменные доступны везде, где описаны, а не только там, где определены
+    //extern - ГўГ­ГҐГёГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»ГҐ Г¤Г®Г±ГІГіГЇГ­Г» ГўГҐГ§Г¤ГҐ, ГЈГ¤ГҐ Г®ГЇГЁГ±Г Г­Г», Г  Г­ГҐ ГІГ®Г«ГјГЄГ® ГІГ Г¬, ГЈГ¤ГҐ Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­Г»
     extern string name;
     extern unsigned short height, weight;
     extern double salary;
